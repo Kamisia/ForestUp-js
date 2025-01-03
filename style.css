@@ -219,8 +219,7 @@
   height: 60%;
   max-height: 600px;
   min-height: 400px;
-  background-color: #bbf0f3;
-  background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+
   position: absolute;
 
   top: 50%;
@@ -240,7 +239,7 @@
   margin: auto;
   font-size: 42px;
   margin-top: 40px;
-  color: #1d6069;
+  color: #fff;
 }
 .video p {
   font-family: "Josefin sans", sans-serif;
@@ -248,21 +247,24 @@
   margin: 0;
   padding: 0;
   font-size: 15px;
-  text-align: right;
+  width: 100%;
+  text-align: end;
+  margin-right: 60px;
   margin-bottom: 50px;
   margin-top: 5px;
 }
 .video p a {
   text-decoration: none;
-  color: #050200;
+  color: #fff;
   cursor: pointer;
   font-style: italic;
+  text-align: end;
 }
 iframe {
   width: 75%;
   height: 60%;
   margin-top: 20px;
   margin-bottom: 0;
-  border-radius: 20px;
-  box-shadow: 0 5px 20px rgba(12.2, 6.7, 9.8, 0.4);
+  border-radius: 8px;
+  box-shadow: 10px 15px 20px rgba(12.2, 6.7, 9.8, 0.4);
 }
